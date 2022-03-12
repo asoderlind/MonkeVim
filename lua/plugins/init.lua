@@ -1,13 +1,11 @@
-local present, packer = pcall(require, "plugins.packerInit")
-
-if not present then
-  return false
+local fn = vim.fn
+local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
+if fn.empty(fn.glob(install_path)) > 0 then
+  fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
 end
 
-local use = packer.use
-
 --- startup and add configure plugins
-return packer.startup(function()
+return require('packer').startup(function(use)
   -- provides functionality for other plugins
    use {
      "nvim-lua/plenary.nvim",
