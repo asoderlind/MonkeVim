@@ -5,14 +5,6 @@ local M = {}
 
 --- Basics
 
--- easy caps
-map('i', '<c-u>', '<ESC>viwUi', {noremap=true})
-map('n', '<c-u>', 'viwU<Esc>', {noremap=true})
-
--- TAB to move between buffers
--- map('n', '<TAB>', ':bnext<CR>', {noremap=true})
--- map('n', '<S-TAB>', ':bprevious<CR>', {noremap=true})
-
 -- alternate way to save
 map('n', '<C-s>', ':w<CR>', {noremap=true})
 
