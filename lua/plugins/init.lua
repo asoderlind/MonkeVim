@@ -26,15 +26,6 @@ return require('packer').startup(function(use)
      end,
   }
 
-  -- lint and prettier servers
-  use{
-    "jose-elias-alvarez/null-ls.nvim",
-    config = function()
-        require "plugins.configs.null"
-    end,
-    requires = { "nvim-lua/plenary.nvim" },
-  }
-
   -- file managing , picker etc
   use {
      "kyazdani42/nvim-tree.lua",
