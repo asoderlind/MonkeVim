@@ -1,7 +1,7 @@
 local set = vim.opt
 local bo = require('bufopt')
 
--->> Numers <<--
+-->> Numbers <<--
 
 -- set row numbers
 set.number=true
