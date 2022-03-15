@@ -6,15 +6,14 @@ end
 
 --- startup and add configure plugins
 return require('packer').startup(function(use)
-  -- provides functionality for other plugins
-   use {
-     "nvim-lua/plenary.nvim",
-   }
-
    -- plugin manager
    use {
      "wbthomason/packer.nvim",
-     event = "VimEnter",
+   }
+
+  -- provides functionality for other plugins
+   use {
+     "nvim-lua/plenary.nvim",
    }
 
   -- icons
