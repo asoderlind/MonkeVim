@@ -10,14 +10,30 @@ Clone the repo
 
 `git clone https://github.com/asoderlind/MonkeVim.git`
 
-then symlink the repo folder as the nvim config folder
+Symlink the repo folder as the nvim config folder
 
 `ln -sf /path/to/MonkeVim /home/user/.config/nvim`
 
-opening nvim again will trigger a hook that installs packer
-after that, while in nvim, run
+Opening nvim again will trigger a hook that installs packer. While in nvim, run
 
 `:PackerSync`
+
+which will install the plugins
+
+## Plugins
+
+### Base functionality
+
+- [plenary](https://github.com/nvim-lua/plenary.nvim)
+- [packer](https://github.com/wbthomason/packer.nvim)
+
+### Icons
+
+- [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
+
+### Linting and prettierd
+
+- [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim")
 
 ## To use the autoformatting capabilities of null-ls
 
