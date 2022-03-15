@@ -1,5 +1,11 @@
 # MonkeVim
 
+![image](white_transparent.png)
+
+Reject modern bloat, return to monke
+
+~Some guy
+
 ## To use the autoformatting capabilities of null-ls
 
 Install ![prettierd](https://github.com/fsouza/prettierd#installation-guide)
