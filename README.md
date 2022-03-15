@@ -26,7 +26,8 @@ which installs and updates the plugins
 
 ### Base functionality
 
-[plenary](https://github.com/nvim-lua/plenary.nvim) - required by many other plugins\n
+[plenary](https://github.com/nvim-lua/plenary.nvim) - required by many other plugins
+
 [packer](https://github.com/wbthomason/packer.nvim) - plugin manager
 
 ### Icons
