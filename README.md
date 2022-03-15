@@ -1,6 +1,8 @@
 # MonkeVim
 
+<div align="center">
 <img src="white_transparent.png" width="200" height="200" />
+</div>
 
 _Reject modern bloat, return to monke_
 
