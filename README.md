@@ -44,7 +44,7 @@ which installs and updates the plugins
 
 [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua) - file navigation
 
-[telescope](https://github.com/telescope.nvim) - amazing grep
+[telescope](https://github.com/nvim-telescope/telescope.nvim) - amazing grep
 
 [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - buffer tabs
 
