@@ -1,6 +1,6 @@
 # MonkeVim
 
-<img src="white_transparent.png" width="200" height="200" />
+![MonkeVim](logo.png)
 
 _Reject modern bloat, return to monke_
 
