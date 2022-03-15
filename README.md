@@ -2,7 +2,7 @@
 
 <img src="white_transparent.png" width="250" height="250" />
 
-Reject modern bloat, return to monke
+Reject modern bloat, return to monke goat
 
 ~Some guy
 
