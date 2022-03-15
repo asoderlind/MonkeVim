@@ -2,9 +2,8 @@
 
 <div align="center">
 <img src="logo.png" width="200" height="200" />
+<em>Reject modern bloat, return to monke</em>
 </div>
-
-_Reject modern bloat, return to monke_
 
 ## Installation
 
