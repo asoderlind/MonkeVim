@@ -1,6 +1,6 @@
 # MonkeVim
 
-<img src="white_transparent.png" width="250" height="250" />
+<img src="white_transparent.png" width="200" height="200" />
 
 Reject modern bloat, return to monke goat
 
