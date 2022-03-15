@@ -1,6 +1,6 @@
 # MonkeVim
 
-![image](white_transparent.png =250x250)
+<img src="white_transparent.png" width="250" height="250" />
 
 Reject modern bloat, return to monke
 
