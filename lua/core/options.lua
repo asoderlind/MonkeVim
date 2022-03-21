@@ -60,4 +60,3 @@ vim.cmd('language en_US.utf-8')
 vim.cmd('syntax on')
 -- lua syntax
 -- let g:vimsyn_embed == 'lPr'
-set.ignorecase=true
