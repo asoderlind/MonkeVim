@@ -7,7 +7,8 @@ ts_config.setup {
    ensure_installed = {
       "lua",
       "typescript",
-      "graphql"
+      "graphql",
+      "python"
    },
    highlight = {
       enable = true,
