@@ -36,6 +36,8 @@ which installs and updates the plugins
 
 [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - syntax highlighting
 
+[gruvbox](https://github.com/ellisonleao/gruvbox.nvim) - Theme
+
 ### Linting and prettierd
 
 [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim") - vscode-like auto-format
@@ -79,8 +81,6 @@ which installs and updates the plugins
 ### Others
 
 [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-
-[nvim-base16](https://github.com/NvChad/nvim-base16.lua)
 
 ## To use the autoformatting capabilities of null-ls
 
