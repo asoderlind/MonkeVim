@@ -16,14 +16,15 @@ return require('packer').startup(function(use)
      "nvim-lua/plenary.nvim",
    }
 
-  -- icons
+  -- icons & themes
   use {
      "kyazdani42/nvim-web-devicons",
-     after = "nvim-base16.lua",
      config = function()
        require "plugins.configs.icons"
      end,
   }
+
+  use { "ellisonleao/gruvbox.nvim" }
 
   -- lint and prettier servers
   use{
@@ -45,14 +46,6 @@ return require('packer').startup(function(use)
      setup = function()
        require("core.mappings").nvimtree()
      end,
-  }
-
-  use {
-    "NvChad/nvim-base16.lua",
-    after = "packer.nvim",
-    config = function()
-       require("colors").init()
-    end,
   }
 
   -- file navigation
