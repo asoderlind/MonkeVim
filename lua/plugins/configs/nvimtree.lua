@@ -8,6 +8,7 @@ local g = vim.g
 
 vim.o.termguicolors = true
 
+g.nvim_tree_respect_buf_cwd = 1
 g.nvim_tree_add_trailing = 0 -- append a trailing slash to folder names
 g.nvim_tree_highlight_opened_files = 0
 g.nvim_tree_indent_markers = 1
@@ -65,8 +66,8 @@ nvimtree.setup {
      }
    },
    update_focused_file = {
-     enable      = false,
-     update_cwd  = false,
+     enable      = true,
+     update_cwd  = true,
      ignore_list = {}
    },
    system_open = {
