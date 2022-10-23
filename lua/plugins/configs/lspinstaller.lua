@@ -2,8 +2,8 @@ local _, lsp_installer = pcall(require, "nvim-lsp-installer")
 
 local function on_attach(client, bufnr)
    -- Avoid conflicts with null_ls
-   client.resolved_capabilities.document_formatting = false
-   client.resolved_capabilities.document_range_formatting = false
+   client.server_capabilities.document_formatting = false
+   client.server_capabilities.document_range_formatting = false
 
    -- set keymap for the current buffer
    local function buf_set_keymap(...)
@@ -36,7 +36,7 @@ local function on_attach(client, bufnr)
    buf_set_keymap("n", "[d", "<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>", opts)
    buf_set_keymap("n", "]d", "<cmd>lua vim.lsp.diagnostic.goto_next()<CR>", opts)
    buf_set_keymap("n", "<space>q", "<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>", opts)
-   buf_set_keymap("n", "<space>f", "<cmd>lua vim.lsp.buf.formatting()<CR>", opts)
+   buf_set_keymap("n", "<space>f", "<cmd>lua vim.lsp.buf.format()<CR>", opts)
    buf_set_keymap("v", "<space>ca", "<cmd>lua vim.lsp.buf.range_code_action()<CR>", opts)
 end
 
