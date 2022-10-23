@@ -42,12 +42,17 @@ end
 
 -- Register a handler that will be called for all installed servers.
 lsp_installer.on_server_ready(function(server)
-    local opts = {
-      on_attach = on_attach,
+    local config = {
+     on_attach = on_attach,
       flags = {
         debounce_text_changes = 150,
+      },
+      settings = {
+        Lua = {
+          diagnostics = { globals = {'vim'} } -- Avoid annoying warning
+        }
       }
     }
-    server:setup(opts)
+    server:setup(config)
     vim.cmd([[ do User LspAttach Buffers ]])
 end)
