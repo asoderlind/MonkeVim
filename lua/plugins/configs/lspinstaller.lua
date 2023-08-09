@@ -1,5 +1,6 @@
 local _, lsp_installer = pcall(require, "nvim-lsp-installer")
 
+
 local function on_attach(client, bufnr)
    -- Avoid conflicts with null_ls
    client.server_capabilities.document_formatting = false
@@ -38,6 +39,7 @@ local function on_attach(client, bufnr)
    buf_set_keymap("n", "<space>q", "<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>", opts)
    buf_set_keymap("n", "<space>f", "<cmd>lua vim.lsp.buf.format()<CR>", opts)
    buf_set_keymap("v", "<space>ca", "<cmd>lua vim.lsp.buf.range_code_action()<CR>", opts)
+
 end
 
 -- Register a handler that will be called for all installed servers.
